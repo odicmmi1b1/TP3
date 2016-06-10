@@ -2,17 +2,12 @@ body
 {
 	padding: 0;
 	margin: 0 ;
-	background-image: url('ronds.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover ;
-	background-position:center; 
+	background-color: #838383; 
 }
 #container
 {
 	padding: 0;
 	margin: 0 ;
-#	background: #fff;
 	font-family: sans-serif;
 }
 
@@ -20,15 +15,12 @@ body
 {
 	margin: 0;
 	padding: 20px;
-	background: #ccc;
+	background: #222;
 	height:50px;
-	background-image: url('haut.jpg');
-	background-repeat: no-repeat;
-	background-size: cover ;
-	background-position:center; 
+
 }
 
-#header h1 { margin: 0; }
+#header h1 { width:100%;text-align:center;color:#FFF;font-family:arial;line-height:0; }
 
 #navigation
 {
@@ -68,20 +60,15 @@ body
 	padding: 0%;
 	margin: 1%;
 	width: 64%;
-	background-color: #f4fcff;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	min-width: 820px;
+	background-color: #fff;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #555;
 	font-size: 160%;
-	margin: 0 0 .5em;
+	margin: 20px 0 .5em;
 }
 
 div.element
@@ -93,15 +80,13 @@ div.element
 	overflow-y: scroll;
 	margin: 1%;
 	padding: 0%;
-	background-color: #f4fcff;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	background-color: #fff;
 }
-
+div.element a
+{
+text-decoration:none;
+color:#00CCFF ;
+}
 div.element img
 {
 	background-color : #fff;
@@ -125,13 +110,16 @@ p
 
 h2,h3
 {
-	text-align: center;
+	color: #555;
+	font-size: 160%;
+	margin: 20px 0 .5em;
+	text-align:center;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #222;
 	text-align: left;
 	font-weight: bold;
 	padding: 20px;
